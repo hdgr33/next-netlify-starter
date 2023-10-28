@@ -1,5 +1,6 @@
 {
     "titulo": "Identificación de Ciudades con el Mejor Clima en Colombia",
+    "Integrantes": "Hector Guillén Ramírez y Sebastian Cruz Gutierrez",
     "introduccion": "Este reporte detalla la metodología utilizada para identificar ciudades en Colombia con el mejor clima, así como las características y ubicaciones de estas ciudades. La investigación se llevó a cabo utilizando herramientas de SIG (Sistemas de Información Geográfica) como GRASS GIS, y se basó en la combinación de datos climáticos y geoespaciales.",
     "metodologia": {
         "pasos": [

@@ -22,10 +22,10 @@ export default function Home() {
       <img src={metodologia.imagenes.mapaRecortado} alt="Mapa Recortado" />
 
       <h2>Mapa de Temperaturas Máximas</h2>
-      <img src={metodologia.imagenes.mapaMaximo} alt="Mapa de Temperaturas Máximas" />
+      <img src={metodologia.imagenes.Maximo} alt="Mapa de Temperaturas Máximas" />
 
       <h2>Mapa de Temperaturas Mínimas</h2>
-      <img src={metodologia.imagenes.mapaMinimo} alt="Mapa de Temperaturas Mínimas" />
+      <img src={metodologia.imagenes.Minimo} alt="Mapa de Temperaturas Mínimas" />
 
       <h2>Mapa de Precipitación</h2>
       <img src={metodologia.imagenes.mapaPrecipitacion} alt="Mapa de Precipitación" />
