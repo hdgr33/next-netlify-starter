@@ -1,0 +1,66 @@
+{
+    "titulo": "Identificación de Ciudades con el Mejor Clima en Colombia",
+    "introduccion": "Este reporte detalla la metodología utilizada para identificar ciudades en Colombia con el mejor clima, así como las características y ubicaciones de estas ciudades. La investigación se llevó a cabo utilizando herramientas de SIG (Sistemas de Información Geográfica) como GRASS GIS, y se basó en la combinación de datos climáticos y geoespaciales.",
+    "metodologia": {
+        "pasos": [
+            "Recorte del Mapa de Climas Mundiales: Inicialmente, se recortó un mapa de climas mundiales utilizando un mapa vectorial de Colombia. Esto permitió enfocarse en las zonas específicas de Colombia.",
+            "Análisis de Datos Climáticos: Se utilizaron datos climáticos para calcular los promedios de temperaturas mínimas, temperaturas máximas y precipitación en todo el país.",
+            "Identificación de Extremos Climáticos: Se buscaron los valores extremos en los promedios calculados. Estos extremos se utilizaron para generar mapas raster separados para temperaturas mínimas, temperaturas máximas y precipitación.",
+            "Aplicación de Condiciones: Se aplicaron condiciones para identificar las zonas con el 'clima perfecto'. Las condiciones incluyeron temperaturas mínimas superiores a 10°C, temperaturas máximas inferiores a 30°C y precipitación superior a 15 mm/h.",
+            "Generación del Mapa de Intersección: Se generó un mapa de intersección raster a partir de los mapas resultantes de las condiciones anteriores. Las áreas amarillas en el mapa de intersección representan las zonas con el clima perfecto esperado."
+        ],
+        "imagenes": {
+            "mapaGenerado": "imagenes/MapaPor Recortar.png",
+            "mapaRecortado": "imagenes/Mapa Y molde.png",
+            "mapaMaximo":"imagenes/Maximo.png",
+            "mapaMinimo":"imagenes/Minimo.png",
+            "mapaPrecipitacion":"imagenes/Precipitacion.png",
+            "mapaInterseccion":"imagenes/MapaInterseccion.png",
+            "mapaFinal":"imagenes/Ciudades Clima Perfecto.png"
+        }
+    },
+    "ciudadesConMejorClima": [
+        {
+            "nombre": "Cali",
+            "ubicacion": "Cali es la capital del departamento del Valle del Cauca, situada en el suroeste de Colombia.",
+            "caracteristicas": "Conocida como la 'Capital Mundial de la Salsa', Cali es famosa por su música, baile y festivales de salsa. Además, disfruta de un clima cálido y seco a lo largo del año, lo que la convierte en un destino agradable para visitar.",
+            "imagen": "/imagenes/cali.jpg",
+            "imagen2": "/imagenes/cal2.jpg"
+        },
+        {
+            "nombre": "Armenia",
+            "ubicacion": "Armenia es la capital del departamento de Quindío, ubicada en el Eje Cafetero de Colombia.",
+            "caracteristicas": "Armenia es parte de la región cafetera de Colombia y se destaca por su producción de café. Ofrece un clima templado y agradable debido a su altitud, lo que la hace ideal para el turismo y la agricultura.",
+            "imagen": "/imagenes/Armenia1.jpg",
+            "imagen2": "/imagenes/Armenia2.png"
+        },
+        {
+            "nombre": "Pereira",
+            "ubicacion": "Pereira es la capital del departamento de Risaralda, también en la región del Eje Cafetero.",
+            "caracteristicas": "Al igual que Armenia, Pereira es conocida por su producción de café y clima templado. Es una ciudad en crecimiento con una economía diversificada.",
+            "imagen": "/imagenes/Pereira.jpg",
+            "imagen2": "/imagenes/Pereira2.jpg"
+        },
+        {
+            "nombre": "Manizales",
+            "ubicacion": "Manizales es la capital del departamento de Caldas, en la zona cafetera de Colombia.",
+            "caracteristicas": "Manizales se caracteriza por su ubicación en la región montañosa de los Andes. Tiene un clima fresco y seco. Es conocida por su arquitectura colonial y su café de alta calidad.",
+            "imagen": "/imagenes/Manizales.png",
+            "imagen2": "/imagenes/Manizales2.jpg"
+        },
+        {
+            "nombre": "Bucaramanga",
+            "ubicacion": "Bucaramanga es la capital del departamento de Santander, en el noreste de Colombia.",
+            "caracteristicas": "Bucaramanga se conoce como la 'Ciudad Bonita' y se encuentra en un valle rodeado de montañas. Ofrece un clima agradable y una alta calidad de vida.",
+            "imagen": "/imagenes/Bucaramanga.jpg",
+            "imagen2": "/imagenes/Bucaramanga2.jpg"
+        },
+        {
+            "nombre": "Cúcuta",
+            "ubicacion": "Cúcuta es la capital del departamento de Norte de Santander, en el noreste de Colombia, cerca de la frontera con Venezuela.",
+            "caracteristicas": "Cúcuta se destaca por su posición estratégica en la frontera y su comercio transfronterizo con Venezuela. Tiene un clima cálido y seco.",
+            "imagen": "imagenes/Cúcuta.jpg",
+            "imagen2": "imagenes/Cucuta-panoramica.png"
+        }
+    ]
+}
